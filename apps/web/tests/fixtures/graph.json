@@ -1,0 +1,1462 @@
+{
+  "edges": [
+    {
+      "confidence": "editorial",
+      "from": "generative-ai",
+      "id": "e001",
+      "last_verified_at": null,
+      "rationale": "MSkill suggested learning order: study AI fundamentals before Generative AI. This is editorial sequencing, not a universal technical requirement or a Microsoft prerequisite.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/",
+      "sources": [],
+      "to": "fundamentals-ai",
+      "type": "REQUIRES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "prompts",
+      "id": "e002",
+      "last_verified_at": null,
+      "rationale": "MSkill suggested learning order: study Generative AI before Prompt design. This is editorial sequencing, not a universal technical requirement or a Microsoft prerequisite.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-instructions",
+      "sources": [],
+      "to": "generative-ai",
+      "type": "REQUIRES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "agents",
+      "id": "e003",
+      "last_verified_at": null,
+      "rationale": "MSkill suggested learning order: study Generative AI before AI agents. This is editorial sequencing, not a universal technical requirement or a Microsoft prerequisite.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/",
+      "sources": [],
+      "to": "generative-ai",
+      "type": "REQUIRES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "knowledge-sources",
+      "id": "e004",
+      "last_verified_at": null,
+      "rationale": "MSkill editorial connection: data modeling helps organize structured knowledge. It is not a universal prerequisite for adding a document as an agent knowledge source.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio",
+      "sources": [],
+      "to": "data-modeling",
+      "type": "RELATED_TO"
+    },
+    {
+      "confidence": "editorial",
+      "from": "retrieval-grounding",
+      "id": "e005",
+      "last_verified_at": null,
+      "rationale": "MSkill suggested learning order: study Knowledge sources before Retrieval and grounding. This is editorial sequencing, not a universal technical requirement or a Microsoft prerequisite.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio",
+      "sources": [],
+      "to": "knowledge-sources",
+      "type": "REQUIRES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "actions-tools",
+      "id": "e006",
+      "last_verified_at": null,
+      "rationale": "MSkill suggested learning order: study API fundamentals before Agent actions and tools. This is editorial sequencing, not a universal technical requirement or a Microsoft prerequisite.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-connectors",
+      "sources": [],
+      "to": "api-basics",
+      "type": "REQUIRES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "cloud-flows",
+      "id": "e007",
+      "last_verified_at": null,
+      "rationale": "MSkill suggested learning order: study Business process mapping before Cloud flows. This is editorial sequencing, not a universal technical requirement or a Microsoft prerequisite.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-automate/get-started-logic-flow",
+      "sources": [],
+      "to": "business-processes",
+      "type": "REQUIRES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "app-ui",
+      "id": "e008",
+      "last_verified_at": null,
+      "rationale": "MSkill suggested learning order: study Business process mapping before App user experience. This is editorial sequencing, not a universal technical requirement or a Microsoft prerequisite.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/getting-started",
+      "sources": [],
+      "to": "business-processes",
+      "type": "REQUIRES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "access-control",
+      "id": "e009",
+      "last_verified_at": null,
+      "rationale": "MSkill editorial connection: Microsoft Entra ID is an identity platform relevant to access control. The general access-control concept does not require this specific product.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/entra/fundamentals/what-is-entra",
+      "sources": [],
+      "to": "entra-id",
+      "type": "RELATED_TO"
+    },
+    {
+      "confidence": "editorial",
+      "from": "monitoring-evals",
+      "id": "e010",
+      "last_verified_at": null,
+      "rationale": "MSkill suggested learning order: study Governance before Monitoring and evaluation. This is editorial sequencing, not a universal technical requirement or a Microsoft prerequisite.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-test-bot",
+      "sources": [],
+      "to": "governance",
+      "type": "REQUIRES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "solutions-deployment",
+      "id": "e011",
+      "last_verified_at": null,
+      "rationale": "MSkill suggested learning order: study Application lifecycle management before Solution deployment. This is editorial sequencing, not a universal technical requirement or a Microsoft prerequisite.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-platform/alm/overview-alm",
+      "sources": [],
+      "to": "alm",
+      "type": "REQUIRES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "agents",
+      "id": "e012",
+      "last_verified_at": null,
+      "rationale": "MSkill suggested learning order: study Prompt design before AI agents. This is editorial sequencing, not a universal technical requirement or a Microsoft prerequisite.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-instructions",
+      "sources": [],
+      "to": "prompts",
+      "type": "REQUIRES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "cloud-flows",
+      "id": "e013",
+      "last_verified_at": null,
+      "rationale": "Cloud flows are a Power Automate workflow category; this hierarchy does not make every automation a cloud flow.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-automate/get-started-logic-flow",
+      "sources": [],
+      "to": "power-automate",
+      "type": "PART_OF"
+    },
+    {
+      "confidence": "editorial",
+      "from": "app-ui",
+      "id": "e014",
+      "last_verified_at": null,
+      "rationale": "MSkill editorial connection: app user experience is a design concern when building Power Apps; the general skill is not a component owned by Power Apps.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/getting-started",
+      "sources": [],
+      "to": "power-apps",
+      "type": "RELATED_TO"
+    },
+    {
+      "confidence": "editorial",
+      "from": "actions-tools",
+      "id": "e015",
+      "last_verified_at": null,
+      "rationale": "Configured tools can extend an agent with service operations. Tools are optional; an agent does not inherently have every available action.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-connectors",
+      "sources": [],
+      "to": "agents",
+      "type": "RELATED_TO"
+    },
+    {
+      "confidence": "editorial",
+      "from": "knowledge-sources",
+      "id": "e016",
+      "last_verified_at": null,
+      "rationale": "MSkill editorial connection: an agent may consult knowledge sources. Those sources can exist independently of the agent and are not necessarily part of it.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio",
+      "sources": [],
+      "to": "agents",
+      "type": "RELATED_TO"
+    },
+    {
+      "confidence": "editorial",
+      "from": "m365-copilot",
+      "id": "e017",
+      "last_verified_at": null,
+      "rationale": "MSkill connects Microsoft 365 Copilot with generative AI to explain generated assistance in work contexts; availability depends on the licensed experience.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoftteams/copilot-ai-agents-overview",
+      "sources": [],
+      "to": "generative-ai",
+      "type": "RELATED_TO"
+    },
+    {
+      "confidence": "editorial",
+      "from": "copilot-studio",
+      "id": "e018",
+      "last_verified_at": null,
+      "rationale": "Copilot Studio provides an environment for authoring agents. Publishing and available features depend on the selected experience and tenant requirements.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-what-is-copilot-studio",
+      "sources": [],
+      "to": "agents",
+      "type": "ENABLES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "power-automate",
+      "id": "e019",
+      "last_verified_at": null,
+      "rationale": "Power Automate supports building cloud flows around triggers and actions; the specific services used determine connection requirements.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-automate/get-started-logic-flow",
+      "sources": [],
+      "to": "cloud-flows",
+      "type": "ENABLES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "power-apps",
+      "id": "e020",
+      "last_verified_at": null,
+      "rationale": "Canvas apps provide controls and layouts for application interfaces. MSkill treats interface design as a broader skill than using this product.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/getting-started",
+      "sources": [],
+      "to": "app-ui",
+      "type": "ENABLES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "dataverse",
+      "id": "e021",
+      "last_verified_at": null,
+      "rationale": "Dataverse supports tables and relationships for business data models. Choosing an appropriate model remains a design task.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro",
+      "sources": [],
+      "to": "data-modeling",
+      "type": "ENABLES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "connectors",
+      "id": "e022",
+      "last_verified_at": null,
+      "rationale": "Connectors expose service operations for automation. Individual operations still require their configured connections and permissions.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-connectors",
+      "sources": [],
+      "to": "cloud-flows",
+      "type": "ENABLES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "knowledge-sources",
+      "id": "e023",
+      "last_verified_at": null,
+      "rationale": "Knowledge sources supply material for retrieval-based grounding; their presence alone does not guarantee relevant or correct answers.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio",
+      "sources": [],
+      "to": "retrieval-grounding",
+      "type": "ENABLES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "entra-id",
+      "id": "e024",
+      "last_verified_at": null,
+      "rationale": "Entra ID supports identity and access management. MSkill distinguishes that implementation from the broader access-control discipline.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/entra/fundamentals/what-is-entra",
+      "sources": [],
+      "to": "access-control",
+      "type": "ENABLES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "business-processes",
+      "id": "e025",
+      "last_verified_at": null,
+      "rationale": "MSkill recommends describing a process trigger, desired result and exceptions before automating it. This is planning advice, not a product prerequisite.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-automate/get-started-logic-flow",
+      "sources": [],
+      "to": "cloud-flows",
+      "type": "ENABLES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "api-basics",
+      "id": "e026",
+      "last_verified_at": null,
+      "rationale": "Understanding API inputs, outputs and errors helps when designing custom tools. Using a prebuilt tool need not require writing an API.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-connectors",
+      "sources": [],
+      "to": "actions-tools",
+      "type": "ENABLES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "generative-ai",
+      "id": "e027",
+      "last_verified_at": null,
+      "rationale": "Generative AI can support agents that interpret requests and produce responses. This relationship does not imply every agent uses a generative model.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/",
+      "sources": [],
+      "to": "agents",
+      "type": "ENABLES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "copilot-studio",
+      "id": "e028",
+      "last_verified_at": null,
+      "rationale": "Copilot Studio and Power Automate have connected flow authoring scenarios. Check the documented flow type, environment and billing requirements before reuse.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/flows-overview",
+      "sources": [],
+      "to": "power-automate",
+      "type": "INTEGRATES_WITH"
+    },
+    {
+      "confidence": "editorial",
+      "from": "copilot-studio",
+      "id": "e029",
+      "last_verified_at": null,
+      "rationale": "Copilot Studio supports SharePoint knowledge sources. Access depends on the source configuration and authentication; connecting a site is not blanket permission.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio",
+      "sources": [],
+      "to": "sharepoint",
+      "type": "INTEGRATES_WITH"
+    },
+    {
+      "confidence": "editorial",
+      "from": "copilot-studio",
+      "id": "e030",
+      "last_verified_at": null,
+      "rationale": "Copilot Studio can use Dataverse tables as knowledge with the documented search, authentication and permission setup.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/agents-experience/knowledge-add-dataverse-tables",
+      "sources": [],
+      "to": "dataverse",
+      "type": "INTEGRATES_WITH"
+    },
+    {
+      "confidence": "editorial",
+      "from": "power-apps",
+      "id": "e031",
+      "last_verified_at": null,
+      "rationale": "A canvas app control can trigger a Power Automate flow. App and flow connections must be configured for the intended users.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/how-to/trigger-flow",
+      "sources": [],
+      "to": "power-automate",
+      "type": "INTEGRATES_WITH"
+    },
+    {
+      "confidence": "editorial",
+      "from": "power-apps",
+      "id": "e032",
+      "last_verified_at": null,
+      "rationale": "Power Apps can build on Dataverse tables. This is a supported data option, not a requirement for every canvas app.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro",
+      "sources": [],
+      "to": "dataverse",
+      "type": "INTEGRATES_WITH"
+    },
+    {
+      "confidence": "editorial",
+      "from": "power-automate",
+      "id": "e033",
+      "last_verified_at": null,
+      "rationale": "A Power Automate flow can use a Teams connector action, such as posting a message, through an authorized connection.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/sharepoint/dev/business-apps/power-automate/get-started/connect-to-other-services-in-your-flow",
+      "sources": [],
+      "to": "teams",
+      "type": "INTEGRATES_WITH"
+    },
+    {
+      "confidence": "editorial",
+      "from": "power-automate",
+      "id": "e034",
+      "last_verified_at": null,
+      "rationale": "The SharePoint connector provides list and library triggers and actions for Power Automate flows.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/sharepoint/dev/business-apps/power-automate/sharepoint-connector-actions-triggers",
+      "sources": [],
+      "to": "sharepoint",
+      "type": "INTEGRATES_WITH"
+    },
+    {
+      "confidence": "editorial",
+      "from": "power-automate",
+      "id": "e035",
+      "last_verified_at": null,
+      "rationale": "The Dataverse connector exposes data operations and triggers to Power Automate; the chosen connection must have the required access.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-automate/dataverse/overview",
+      "sources": [],
+      "to": "dataverse",
+      "type": "INTEGRATES_WITH"
+    },
+    {
+      "confidence": "editorial",
+      "from": "azure-functions",
+      "id": "e036",
+      "last_verified_at": null,
+      "rationale": "Custom server-side logic, including Azure Functions, can be exposed to Power Automate through an API connector. This requires deliberate API and authentication configuration.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-automate/developer/dev-enterprise-intro",
+      "sources": [],
+      "to": "power-automate",
+      "type": "INTEGRATES_WITH"
+    },
+    {
+      "confidence": "editorial",
+      "from": "microsoft-graph",
+      "id": "e037",
+      "last_verified_at": null,
+      "rationale": "Microsoft Graph exposes supported Teams APIs. An application must request the permissions required by each operation.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/graph/overview",
+      "sources": [],
+      "to": "teams",
+      "type": "INTEGRATES_WITH"
+    },
+    {
+      "confidence": "editorial",
+      "from": "microsoft-graph",
+      "id": "e038",
+      "last_verified_at": null,
+      "rationale": "Microsoft Graph exposes supported SharePoint APIs. The available operation and granted permissions determine which content an application can access.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/graph/overview",
+      "sources": [],
+      "to": "sharepoint",
+      "type": "INTEGRATES_WITH"
+    },
+    {
+      "confidence": "editorial",
+      "from": "m365-copilot",
+      "id": "e039",
+      "last_verified_at": null,
+      "rationale": "MSkill links the Microsoft 365 assistance experience with Copilot Studio agent authoring. These are distinct products; licensing and deployment choices must be checked separately.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-what-is-copilot-studio",
+      "sources": [],
+      "to": "copilot-studio",
+      "type": "RELATED_TO"
+    },
+    {
+      "confidence": "editorial",
+      "from": "copilot-studio",
+      "id": "e040",
+      "last_verified_at": null,
+      "rationale": "Copilot Studio agents can be configured with knowledge sources. Source selection is optional and should match the intended questions.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio",
+      "sources": [],
+      "to": "knowledge-sources",
+      "type": "USES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "copilot-studio",
+      "id": "e041",
+      "last_verified_at": null,
+      "rationale": "Copilot Studio agents can call configured tools. Tool availability and authorization must be established before an agent can use them.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-connectors",
+      "sources": [],
+      "to": "actions-tools",
+      "type": "USES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "copilot-studio",
+      "id": "e042",
+      "last_verified_at": null,
+      "rationale": "Copilot Studio can use Power Platform connectors to expose service operations as tools; a connector is not an automatic grant of access.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-connectors",
+      "sources": [],
+      "to": "connectors",
+      "type": "USES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "power-automate",
+      "id": "e043",
+      "last_verified_at": null,
+      "rationale": "Cloud flows can use connector triggers and actions. A flow does not automatically use every connector or service.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-automate/get-started-logic-flow",
+      "sources": [],
+      "to": "connectors",
+      "type": "USES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "power-apps",
+      "id": "e044",
+      "last_verified_at": null,
+      "rationale": "Dataverse is used by model-driven apps and can supply data to canvas apps. Canvas apps can also use other data sources.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro",
+      "sources": [],
+      "to": "dataverse",
+      "type": "USES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "agents",
+      "id": "e045",
+      "last_verified_at": null,
+      "rationale": "Knowledge-grounded agents can retrieve source material to inform responses. Retrieval is one design pattern, not a requirement for every agent.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio",
+      "sources": [],
+      "to": "retrieval-grounding",
+      "type": "USES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "azure-functions",
+      "id": "e046",
+      "last_verified_at": null,
+      "rationale": "HTTP-triggered Azure Functions receive requests and return responses. API design knowledge is relevant to that pattern; other trigger types exist.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook",
+      "sources": [],
+      "to": "api-basics",
+      "type": "USES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "copilot-studio",
+      "id": "e047",
+      "last_verified_at": null,
+      "rationale": "Power Platform data policies can restrict Copilot Studio capabilities and connections. Effective controls depend on the applicable tenant and environment policies.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/admin-data-loss-prevention",
+      "sources": [],
+      "to": "governance",
+      "type": "GOVERNED_BY"
+    },
+    {
+      "confidence": "editorial",
+      "from": "power-automate",
+      "id": "e048",
+      "last_verified_at": null,
+      "rationale": "MSkill recommends reviewing Power Automate environment access and data policies before sharing automations.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-platform/admin/security",
+      "sources": [],
+      "to": "governance",
+      "type": "GOVERNED_BY"
+    },
+    {
+      "confidence": "editorial",
+      "from": "power-apps",
+      "id": "e049",
+      "last_verified_at": null,
+      "rationale": "MSkill recommends reviewing Power Apps sharing, environment access and data policies before making an app available to others.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-platform/admin/security",
+      "sources": [],
+      "to": "governance",
+      "type": "GOVERNED_BY"
+    },
+    {
+      "confidence": "editorial",
+      "from": "agents",
+      "id": "e050",
+      "last_verified_at": null,
+      "rationale": "MSkill treats authentication and allowed tool access as agent design decisions. Instructions alone are not an authorization boundary.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/admin-data-loss-prevention",
+      "sources": [],
+      "to": "access-control",
+      "type": "GOVERNED_BY"
+    },
+    {
+      "confidence": "editorial",
+      "from": "knowledge-sources",
+      "id": "e051",
+      "last_verified_at": null,
+      "rationale": "Access behavior differs between knowledge-source types. Review each source configuration; do not assume uploaded content inherits per-user source permissions.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio",
+      "sources": [],
+      "to": "access-control",
+      "type": "GOVERNED_BY"
+    },
+    {
+      "confidence": "editorial",
+      "from": "dataverse",
+      "id": "e052",
+      "last_verified_at": null,
+      "rationale": "Dataverse provides security controls for data access. Review the effective roles and permissions for the intended users.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro",
+      "sources": [],
+      "to": "access-control",
+      "type": "GOVERNED_BY"
+    },
+    {
+      "confidence": "editorial",
+      "from": "power-platform-admin",
+      "id": "e053",
+      "last_verified_at": null,
+      "rationale": "Power Platform administration provides controls for environments, users and policies; governance also requires organizational decisions and ownership.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-platform/admin/security",
+      "sources": [],
+      "to": "governance",
+      "type": "ENABLES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "solutions-deployment",
+      "id": "e054",
+      "last_verified_at": null,
+      "rationale": "Solution deployment involves target environments and administrative permissions. MSkill links this practice to Power Platform administration.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-platform/alm/overview-alm",
+      "sources": [],
+      "to": "power-platform-admin",
+      "type": "RELATED_TO"
+    },
+    {
+      "confidence": "editorial",
+      "from": "alm",
+      "id": "e055",
+      "last_verified_at": null,
+      "rationale": "MSkill connects lifecycle management with environment administration when planning release ownership and operational support.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-platform/alm/overview-alm",
+      "sources": [],
+      "to": "power-platform-admin",
+      "type": "RELATED_TO"
+    },
+    {
+      "confidence": "editorial",
+      "from": "alm",
+      "id": "e056",
+      "last_verified_at": null,
+      "rationale": "Power Platform solutions package components for movement between environments as part of a managed lifecycle.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-platform/alm/overview-alm",
+      "sources": [],
+      "to": "solutions-deployment",
+      "type": "RELATED_TO"
+    },
+    {
+      "confidence": "editorial",
+      "from": "monitoring-evals",
+      "id": "e057",
+      "last_verified_at": null,
+      "rationale": "MSkill recommends testing agent conversations and inspecting behavior before release. Design-time testing does not prove production-channel behavior.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-test-bot",
+      "sources": [],
+      "to": "agents",
+      "type": "RELATED_TO"
+    },
+    {
+      "confidence": "editorial",
+      "from": "microsoft-graph",
+      "id": "e058",
+      "last_verified_at": null,
+      "rationale": "MSkill suggested learning order: study API fundamentals before Microsoft Graph. This is editorial sequencing, not a universal technical requirement or a Microsoft prerequisite.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/graph/overview",
+      "sources": [],
+      "to": "api-basics",
+      "type": "REQUIRES"
+    },
+    {
+      "confidence": "editorial",
+      "from": "azure-functions",
+      "id": "e059",
+      "last_verified_at": null,
+      "rationale": "HTTP-triggered functions are a practical setting for learning request and response contracts; this is an editorial learning connection.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook",
+      "sources": [],
+      "to": "api-basics",
+      "type": "RELATED_TO"
+    },
+    {
+      "confidence": "editorial",
+      "from": "azure-ai",
+      "id": "e060",
+      "last_verified_at": null,
+      "rationale": "MSkill connects prebuilt Foundry Tools with agent solution design as an optional capability choice, not a required agent platform.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/how-to/develop/sdk-overview",
+      "sources": [],
+      "to": "agents",
+      "type": "RELATED_TO"
+    },
+    {
+      "confidence": "editorial",
+      "from": "azure-ai",
+      "id": "e061",
+      "last_verified_at": null,
+      "rationale": "Foundry Tools and generative-model APIs are distinct capability families. MSkill links them for comparison when choosing an AI solution approach.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/how-to/develop/sdk-overview",
+      "sources": [],
+      "to": "generative-ai",
+      "type": "RELATED_TO"
+    },
+    {
+      "confidence": "editorial",
+      "from": "dataverse",
+      "id": "e062",
+      "last_verified_at": null,
+      "rationale": "MSkill uses Dataverse tables and relationships as one concrete setting for practicing data modeling.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro",
+      "sources": [],
+      "to": "data-modeling",
+      "type": "RELATED_TO"
+    },
+    {
+      "confidence": "editorial",
+      "from": "sharepoint",
+      "id": "e063",
+      "last_verified_at": null,
+      "rationale": "SharePoint is a supported source option for Copilot Studio knowledge. Relevance and access must be reviewed for the selected site content.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio",
+      "sources": [],
+      "to": "knowledge-sources",
+      "type": "RELATED_TO"
+    },
+    {
+      "confidence": "editorial",
+      "from": "teams",
+      "id": "e064",
+      "last_verified_at": null,
+      "rationale": "Teams offers Copilot experiences in collaboration workflows; exact availability depends on licensing and administrator configuration.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoftteams/copilot-ai-agents-overview",
+      "sources": [],
+      "to": "m365-copilot",
+      "type": "RELATED_TO"
+    },
+    {
+      "confidence": "editorial",
+      "from": "solutions-deployment",
+      "id": "e065",
+      "last_verified_at": null,
+      "rationale": "MSkill recommends reviewed deployment, ownership and rollback decisions as part of release governance.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-platform/alm/overview-alm",
+      "sources": [],
+      "to": "governance",
+      "type": "GOVERNED_BY"
+    },
+    {
+      "confidence": "editorial",
+      "from": "alm",
+      "id": "e066",
+      "last_verified_at": null,
+      "rationale": "Application lifecycle management includes governance across development, deployment and maintenance; it is broader than packaging a release.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-platform/alm/overview-alm",
+      "sources": [],
+      "to": "governance",
+      "type": "GOVERNED_BY"
+    },
+    {
+      "confidence": "editorial",
+      "from": "copilot-studio",
+      "id": "e067",
+      "last_verified_at": null,
+      "rationale": "Copilot Studio provides conversation testing and activity inspection. MSkill recommends recording expected and observed outcomes separately.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-test-bot",
+      "sources": [],
+      "to": "monitoring-evals",
+      "type": "RELATED_TO"
+    },
+    {
+      "confidence": "editorial",
+      "from": "power-apps",
+      "id": "e068",
+      "last_verified_at": null,
+      "rationale": "MSkill links Power Apps to interface design practice: clear controls, readable layouts and useful feedback still require deliberate design.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/getting-started",
+      "sources": [],
+      "to": "app-ui",
+      "type": "RELATED_TO"
+    },
+    {
+      "confidence": "editorial",
+      "from": "business-processes",
+      "id": "e069",
+      "last_verified_at": null,
+      "rationale": "A business process supplies context for choosing what a flow should automate. The relationship is editorial planning guidance.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-automate/get-started-logic-flow",
+      "sources": [],
+      "to": "power-automate",
+      "type": "RELATED_TO"
+    },
+    {
+      "confidence": "editorial",
+      "from": "governance",
+      "id": "e070",
+      "last_verified_at": null,
+      "rationale": "MSkill treats access decisions as one part of governance, alongside ownership and operational policy.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/power-platform/admin/security",
+      "sources": [],
+      "to": "access-control",
+      "type": "RELATED_TO"
+    },
+    {
+      "confidence": "editorial",
+      "from": "cloud-flows",
+      "id": "e071",
+      "last_verified_at": null,
+      "rationale": "Agent flows can perform multi-step operations for an agent. Check the supported flow pattern before treating an existing cloud flow as an agent tool.",
+      "source_status": "seed-review",
+      "source_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/flows-overview",
+      "sources": [],
+      "to": "actions-tools",
+      "type": "RELATED_TO"
+    }
+  ],
+  "nodes": [
+    {
+      "difficulty": 3,
+      "explanations": {
+        "architect": "MSkill design review: Separate identity from authorization and review the effective privileges of each actor.",
+        "builder": "MSkill practice: Describe who may read or change a resource and test an allowed and denied case.",
+        "explorer": "Deciding and enforcing which identities can access which resources."
+      },
+      "id": "access-control",
+      "kind": "concept",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/entra/fundamentals/what-is-entra",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "Deciding and enforcing which identities can access which resources.",
+      "tags": [
+        "identity"
+      ],
+      "title": "Access control",
+      "topic": "identity"
+    },
+    {
+      "difficulty": 2,
+      "explanations": {
+        "architect": "MSkill design review: Review who authorizes the operation and what happens if a write is repeated.",
+        "builder": "MSkill practice: Describe one operation with inputs, outputs and a safe failure result before connecting it.",
+        "explorer": "Capabilities allowing an agent to invoke defined operations."
+      },
+      "id": "actions-tools",
+      "kind": "concept",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-connectors",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "Capabilities allowing an agent to invoke defined operations.",
+      "tags": [
+        "automation"
+      ],
+      "title": "Agent actions and tools",
+      "topic": "automation"
+    },
+    {
+      "difficulty": 2,
+      "explanations": {
+        "architect": "MSkill design review: Assign responsibility for permissions, failure handling and release review.",
+        "builder": "MSkill practice: Define a narrow goal and identify which configured resources the agent needs.",
+        "explorer": "AI experiences that can respond using tools, context, and configured workflows."
+      },
+      "id": "agents",
+      "kind": "concept",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-what-is-copilot-studio",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "AI experiences that can respond using tools, context, and configured workflows.",
+      "tags": [
+        "ai"
+      ],
+      "title": "AI agents",
+      "topic": "ai"
+    },
+    {
+      "difficulty": 3,
+      "explanations": {
+        "architect": "MSkill design review: Define ownership, rollback and the source of truth for releases.",
+        "builder": "MSkill practice: Describe how a small change moves from development to a reviewed release.",
+        "explorer": "Processes for versioning, testing, releasing and maintaining solutions."
+      },
+      "id": "alm",
+      "kind": "concept",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/power-platform/alm/overview-alm",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "Processes for versioning, testing, releasing and maintaining solutions.",
+      "tags": [
+        "architecture"
+      ],
+      "title": "Application lifecycle management",
+      "topic": "architecture"
+    },
+    {
+      "difficulty": 2,
+      "explanations": {
+        "architect": "MSkill design review: Review authentication, permissions and compatibility when changing the interface.",
+        "builder": "MSkill practice: Describe a request, response, status and error for a small HTTP operation.",
+        "explorer": "Understanding requests, responses, authentication and error handling."
+      },
+      "id": "api-basics",
+      "kind": "skill",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "Understanding requests, responses, authentication and error handling.",
+      "tags": [
+        "data"
+      ],
+      "title": "API fundamentals",
+      "topic": "data"
+    },
+    {
+      "difficulty": 2,
+      "explanations": {
+        "architect": "MSkill design review: Review accessibility and user feedback together with data and sharing boundaries.",
+        "builder": "MSkill practice: Design one task with labelled controls and helpful validation, then try it by keyboard.",
+        "explorer": "Designing usable forms, states and task-oriented screens."
+      },
+      "id": "app-ui",
+      "kind": "skill",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/getting-started",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "Designing usable forms, states and task-oriented screens.",
+      "tags": [
+        "automation"
+      ],
+      "title": "App user experience",
+      "topic": "automation"
+    },
+    {
+      "difficulty": 3,
+      "explanations": {
+        "architect": "MSkill design review: Review the selected tool endpoint and lifecycle; this node does not represent the whole Foundry platform.",
+        "builder": "MSkill practice: Compare a prebuilt tool with the task you need to solve before choosing an SDK.",
+        "explorer": "Prebuilt AI capabilities with dedicated SDKs, formerly called Azure AI Services."
+      },
+      "id": "azure-ai",
+      "kind": "product",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/azure/foundry/how-to/develop/sdk-overview",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "Prebuilt AI capabilities with dedicated SDKs, formerly called Azure AI Services.",
+      "tags": [
+        "Azure AI Services",
+        "Foundry Tools",
+        "ai"
+      ],
+      "title": "Foundry Tools",
+      "topic": "ai"
+    },
+    {
+      "difficulty": 3,
+      "explanations": {
+        "architect": "MSkill design review: Choose authentication and operational ownership; do not treat a callable URL as authorization.",
+        "builder": "MSkill practice: For an HTTP function, define a request, response and useful failure result.",
+        "explorer": "A cloud platform for running event-driven code without managing servers directly."
+      },
+      "id": "azure-functions",
+      "kind": "product",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "A cloud platform for running event-driven code without managing servers directly.",
+      "tags": [
+        "architecture"
+      ],
+      "title": "Azure Functions",
+      "topic": "architecture"
+    },
+    {
+      "difficulty": 1,
+      "explanations": {
+        "architect": "MSkill design review: Identify process ownership and approval boundaries before changing how work is done.",
+        "builder": "MSkill practice: Write the trigger, actors, expected result and exceptions before choosing an automation.",
+        "explorer": "Turning real-world workflows into explicit steps, actors and decisions."
+      },
+      "id": "business-processes",
+      "kind": "skill",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/power-automate/get-started-logic-flow",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "Turning real-world workflows into explicit steps, actors and decisions.",
+      "tags": [
+        "automation"
+      ],
+      "title": "Business process mapping",
+      "topic": "automation"
+    },
+    {
+      "difficulty": 2,
+      "explanations": {
+        "architect": "MSkill design review: Plan connection ownership, retries and operational support for the flow.",
+        "builder": "MSkill practice: Build a trigger and action, then check what happens when required input is missing.",
+        "explorer": "Automated or triggered workflow sequences in Power Automate."
+      },
+      "id": "cloud-flows",
+      "kind": "concept",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/power-automate/get-started-logic-flow",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "Automated or triggered workflow sequences in Power Automate.",
+      "tags": [
+        "automation"
+      ],
+      "title": "Cloud flows",
+      "topic": "automation"
+    },
+    {
+      "difficulty": 2,
+      "explanations": {
+        "architect": "MSkill design review: Review permissions and data policies for each connection used by the solution.",
+        "builder": "MSkill practice: Inspect an action contract and connection requirements with synthetic data.",
+        "explorer": "Integration mechanisms between services and workflow tools."
+      },
+      "id": "connectors",
+      "kind": "concept",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-connectors",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "Integration mechanisms between services and workflow tools.",
+      "tags": [
+        "automation"
+      ],
+      "title": "Connectors",
+      "topic": "automation"
+    },
+    {
+      "difficulty": 2,
+      "explanations": {
+        "architect": "MSkill design review: Review channels, identities, data policies and release ownership before publishing.",
+        "builder": "MSkill practice: Define one agent purpose, then configure only the knowledge and tools that purpose needs.",
+        "explorer": "A platform for designing and managing conversational AI agents."
+      },
+      "id": "copilot-studio",
+      "kind": "product",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-what-is-copilot-studio",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "A platform for designing and managing conversational AI agents.",
+      "tags": [
+        "ai"
+      ],
+      "title": "Microsoft Copilot Studio",
+      "topic": "ai"
+    },
+    {
+      "difficulty": 2,
+      "explanations": {
+        "architect": "MSkill design review: Review ownership, sensitive fields and how changes affect dependent components.",
+        "builder": "MSkill practice: Choose entities, fields and relationships for a fictional workflow.",
+        "explorer": "Structuring records, relationships and validation rules."
+      },
+      "id": "data-modeling",
+      "kind": "skill",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "Structuring records, relationships and validation rules.",
+      "tags": [
+        "data"
+      ],
+      "title": "Data modeling",
+      "topic": "data"
+    },
+    {
+      "difficulty": 2,
+      "explanations": {
+        "architect": "MSkill design review: Review role boundaries and effective data access before sharing the app.",
+        "builder": "MSkill practice: Model a small synthetic dataset with tables and relationships.",
+        "explorer": "A data platform commonly used by Power Platform applications."
+      },
+      "id": "dataverse",
+      "kind": "product",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "A data platform commonly used by Power Platform applications.",
+      "tags": [
+        "data"
+      ],
+      "title": "Microsoft Dataverse",
+      "topic": "data"
+    },
+    {
+      "difficulty": 2,
+      "explanations": {
+        "architect": "MSkill design review: Review identity lifecycle, least privilege and the policies protecting the resource.",
+        "builder": "MSkill practice: Identify the user or application identity involved in a sample access decision.",
+        "explorer": "An identity and access management service for Microsoft cloud environments."
+      },
+      "id": "entra-id",
+      "kind": "product",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/entra/fundamentals/what-is-entra",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "An identity and access management service for Microsoft cloud environments.",
+      "tags": [
+        "identity"
+      ],
+      "title": "Microsoft Entra ID",
+      "topic": "identity"
+    },
+    {
+      "difficulty": 1,
+      "explanations": {
+        "architect": "MSkill design review: Decide what evidence would justify using an AI approach for the task.",
+        "builder": "MSkill practice: Explain a model input, an output and a possible failure using a small synthetic example.",
+        "explorer": "Core ideas behind AI systems, strengths, limits and safe use."
+      },
+      "id": "fundamentals-ai",
+      "kind": "concept",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "Core ideas behind AI systems, strengths, limits and safe use.",
+      "tags": [
+        "ai"
+      ],
+      "title": "AI fundamentals",
+      "topic": "ai"
+    },
+    {
+      "difficulty": 1,
+      "explanations": {
+        "architect": "MSkill design review: Plan how uncertainty, evaluation and human review affect the solution.",
+        "builder": "MSkill practice: Compare responses to a few variations of one request and record unsupported output.",
+        "explorer": "AI systems that can generate text and other content from patterns and prompts."
+      },
+      "id": "generative-ai",
+      "kind": "concept",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "AI systems that can generate text and other content from patterns and prompts.",
+      "tags": [
+        "ai"
+      ],
+      "title": "Generative AI",
+      "topic": "ai"
+    },
+    {
+      "difficulty": 3,
+      "explanations": {
+        "architect": "MSkill design review: Make release review, support and access decisions explicit rather than relying on maker intent.",
+        "builder": "MSkill practice: Identify an owner and applicable environment policies for a sample solution.",
+        "explorer": "Policies, ownership and controls for responsible technology usage."
+      },
+      "id": "governance",
+      "kind": "concept",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/power-platform/admin/security",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "Policies, ownership and controls for responsible technology usage.",
+      "tags": [
+        "architecture"
+      ],
+      "title": "Governance",
+      "topic": "architecture"
+    },
+    {
+      "difficulty": 2,
+      "explanations": {
+        "architect": "MSkill design review: Review source ownership, freshness and the authentication behavior of each source type.",
+        "builder": "MSkill practice: Choose a small source set and test questions with and without an answer in that material.",
+        "explorer": "Approved data and documents used to inform agent responses."
+      },
+      "id": "knowledge-sources",
+      "kind": "concept",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "Approved data and documents used to inform agent responses.",
+      "tags": [
+        "data"
+      ],
+      "title": "Knowledge sources",
+      "topic": "data"
+    },
+    {
+      "difficulty": 1,
+      "explanations": {
+        "architect": "MSkill design review: Identify the licensed experience, data boundary and administrator controls before a pilot.",
+        "builder": "MSkill practice: Try a supported summarization task with synthetic content and compare the output with its source.",
+        "explorer": "AI assistance integrated into Microsoft 365 work contexts."
+      },
+      "id": "m365-copilot",
+      "kind": "product",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/microsoftteams/copilot-ai-agents-overview",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "AI assistance integrated into Microsoft 365 work contexts.",
+      "tags": [
+        "ai"
+      ],
+      "title": "Microsoft 365 Copilot",
+      "topic": "ai"
+    },
+    {
+      "difficulty": 3,
+      "explanations": {
+        "architect": "MSkill design review: Distinguish application access from delegated access and review the scope of consent.",
+        "builder": "MSkill practice: Read one endpoint contract and inspect its permissions before trying a synthetic request.",
+        "explorer": "A developer API for accessing supported Microsoft 365 data and capabilities."
+      },
+      "id": "microsoft-graph",
+      "kind": "product",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/graph/overview",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "A developer API for accessing supported Microsoft 365 data and capabilities.",
+      "tags": [
+        "data"
+      ],
+      "title": "Microsoft Graph",
+      "topic": "data"
+    },
+    {
+      "difficulty": 3,
+      "explanations": {
+        "architect": "MSkill design review: Separate design-time checks from published-channel and operational acceptance.",
+        "builder": "MSkill practice: Record expected and observed results for normal, missing-answer and failure cases.",
+        "explorer": "Observability and tests that help detect failures and assess quality."
+      },
+      "id": "monitoring-evals",
+      "kind": "concept",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-test-bot",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "Observability and tests that help detect failures and assess quality.",
+      "tags": [
+        "architecture"
+      ],
+      "title": "Monitoring and evaluation",
+      "topic": "architecture"
+    },
+    {
+      "difficulty": 1,
+      "explanations": {
+        "architect": "MSkill design review: Choose the app type and data source alongside sharing and lifecycle requirements.",
+        "builder": "MSkill practice: Sketch a short user task, then build a readable screen with clear validation feedback.",
+        "explorer": "Tools for building low-code business applications."
+      },
+      "id": "power-apps",
+      "kind": "product",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/getting-started",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "Tools for building low-code business applications.",
+      "tags": [
+        "automation"
+      ],
+      "title": "Power Apps",
+      "topic": "automation"
+    },
+    {
+      "difficulty": 1,
+      "explanations": {
+        "architect": "MSkill design review: Define connection ownership, failure handling and the environments used for release.",
+        "builder": "MSkill practice: Build a small trigger-and-action flow with synthetic inputs and inspect a failed run.",
+        "explorer": "A platform for automating workflows across applications and services."
+      },
+      "id": "power-automate",
+      "kind": "product",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/power-automate/get-started-logic-flow",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "A platform for automating workflows across applications and services.",
+      "tags": [
+        "automation"
+      ],
+      "title": "Power Automate",
+      "topic": "automation"
+    },
+    {
+      "difficulty": 3,
+      "explanations": {
+        "architect": "MSkill design review: Define ownership and review boundaries across environments before broad sharing.",
+        "builder": "MSkill practice: Locate the environment, users and policies relevant to a synthetic solution.",
+        "explorer": "Administrative experiences for managing and governing Power Platform environments."
+      },
+      "id": "power-platform-admin",
+      "kind": "product",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/power-platform/admin/security",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "Administrative experiences for managing and governing Power Platform environments.",
+      "tags": [
+        "architecture"
+      ],
+      "title": "Power Platform admin center",
+      "topic": "architecture"
+    },
+    {
+      "difficulty": 1,
+      "explanations": {
+        "architect": "MSkill design review: Treat instructions as behavior guidance; enforce permissions through actual access controls.",
+        "builder": "MSkill practice: Write a clear task and constraints, then test examples inside and outside the intended scope.",
+        "explorer": "Designing clear instructions and context for AI-assisted workflows."
+      },
+      "id": "prompts",
+      "kind": "skill",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-instructions",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "Designing clear instructions and context for AI-assisted workflows.",
+      "tags": [
+        "ai"
+      ],
+      "title": "Prompt design",
+      "topic": "ai"
+    },
+    {
+      "difficulty": 3,
+      "explanations": {
+        "architect": "MSkill design review: Plan for irrelevant results and unavailable sources; grounding is not a correctness guarantee.",
+        "builder": "MSkill practice: Compare a response with the material retrieved for it and record missing context.",
+        "explorer": "Patterns for anchoring AI answers in relevant retrieved content."
+      },
+      "id": "retrieval-grounding",
+      "kind": "concept",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "Patterns for anchoring AI answers in relevant retrieved content.",
+      "tags": [
+        "ai"
+      ],
+      "title": "Retrieval and grounding",
+      "topic": "ai"
+    },
+    {
+      "difficulty": 1,
+      "explanations": {
+        "architect": "MSkill design review: Define content ownership and verify source-specific access behavior before connecting it.",
+        "builder": "MSkill practice: Select a small, maintained set of pages or documents for a knowledge experiment.",
+        "explorer": "A Microsoft 365 platform for collaboration and information management."
+      },
+      "id": "sharepoint",
+      "kind": "product",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "A Microsoft 365 platform for collaboration and information management.",
+      "tags": [
+        "collaboration"
+      ],
+      "title": "SharePoint",
+      "topic": "collaboration"
+    },
+    {
+      "difficulty": 3,
+      "explanations": {
+        "architect": "MSkill design review: Plan review, rollback and environment responsibilities before importing changes.",
+        "builder": "MSkill practice: Identify the components and target environment for a small solution release.",
+        "explorer": "Moving tested software and configuration safely across environments."
+      },
+      "id": "solutions-deployment",
+      "kind": "concept",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/power-platform/alm/overview-alm",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "Moving tested software and configuration safely across environments.",
+      "tags": [
+        "architecture"
+      ],
+      "title": "Solution deployment",
+      "topic": "architecture"
+    },
+    {
+      "difficulty": 1,
+      "explanations": {
+        "architect": "MSkill design review: Check the available experience and applicable tenant settings before a pilot.",
+        "builder": "MSkill practice: Compare a supported Copilot task in Teams with the original conversation content.",
+        "explorer": "Microsoft collaboration, meetings and communication platform."
+      },
+      "id": "teams",
+      "kind": "product",
+      "last_verified_at": null,
+      "official_url": "https://learn.microsoft.com/en-us/microsoftteams/copilot-ai-agents-overview",
+      "source_status": "seed-review",
+      "sources": [],
+      "summary": "Microsoft collaboration, meetings and communication platform.",
+      "tags": [
+        "collaboration"
+      ],
+      "title": "Microsoft Teams",
+      "topic": "collaboration"
+    }
+  ],
+  "status": "editorial-seed-review",
+  "version": "v1"
+}

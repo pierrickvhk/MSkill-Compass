@@ -1,0 +1,158 @@
+#1 [internal] load local bake definitions
+#1 reading from stdin 1.16kB done
+#1 DONE 0.0s
+
+#2 [web internal] load build definition from Dockerfile
+#2 transferring dockerfile: 648B done
+#2 DONE 0.0s
+
+#3 [api internal] load build definition from Dockerfile
+#3 transferring dockerfile: 765B done
+#3 DONE 0.0s
+
+#4 [api internal] load metadata for docker.io/library/python:3.12-slim-bookworm
+#4 DONE 0.8s
+
+#5 [api internal] load metadata for ghcr.io/astral-sh/uv:0.12.23
+#5 DONE 0.8s
+
+#6 [api internal] load .dockerignore
+#6 transferring context: 162B 0.0s done
+#6 DONE 0.0s
+
+#7 [api] FROM ghcr.io/astral-sh/uv:0.12.23@sha256:61d393e44e249f2e4b526b6c7ddcecce245946826e608e11c93ad4f5bba55b21
+#7 DONE 0.0s
+
+#8 [api base 1/4] FROM docker.io/library/python:3.12-slim-bookworm@sha256:34386ef0cb081344d7ec1c103ba398e6e9f64e9ab3a1509accc92a4e24a07258
+#8 DONE 0.0s
+
+#9 [api internal] load build context
+#9 transferring context: 239.00kB 0.0s done
+#9 DONE 0.0s
+
+#10 [api base 3/4] WORKDIR /app/apps/api
+#10 CACHED
+
+#11 [api base 4/4] COPY apps/api/pyproject.toml apps/api/uv.lock ./
+#11 CACHED
+
+#12 [api base 2/4] COPY --from=ghcr.io/astral-sh/uv:0.12.23 /uv /uvx /bin/
+#12 CACHED
+
+#13 [api production 1/3] RUN uv sync --frozen --no-dev && useradd --create-home appuser
+#13 CACHED
+
+#14 [api production 2/3] COPY apps/api/mskill_api/ ./mskill_api/
+#14 CACHED
+
+#15 [api production 3/3] COPY content/ /app/content/
+#15 DONE 0.0s
+
+#16 [web internal] load metadata for docker.io/library/node:24.14.1-bookworm-slim
+#16 ...
+
+#17 [api] exporting to image
+#17 exporting layers 0.0s done
+#17 writing image sha256:985ca7b479b17ff9832838e158148a95f4cb32ba278a42fad9d87aeec4aade68 done
+#17 naming to docker.io/library/mskill-beta-check-api done
+#17 DONE 0.0s
+
+#18 [api] resolving provenance for metadata file
+#18 DONE 0.0s
+
+#16 [web internal] load metadata for docker.io/library/node:24.14.1-bookworm-slim
+#16 DONE 1.7s
+
+#6 [web internal] load .dockerignore
+#6 CACHED
+
+#19 [web dependencies 1/4] FROM docker.io/library/node:24.14.1-bookworm-slim@sha256:b506e7321f176aae77317f99d67a24b272c1f09f1d10f1761f2773447d8da26c
+#19 DONE 0.0s
+
+#20 [web internal] load build context
+#20 transferring context: 635.55kB 0.5s done
+#20 DONE 0.5s
+
+#21 [web dependencies 3/4] COPY apps/web/package.json apps/web/package-lock.json ./
+#21 CACHED
+
+#22 [web dependencies 2/4] WORKDIR /app
+#22 CACHED
+
+#23 [web dependencies 4/4] RUN npm ci
+#23 CACHED
+
+#24 [web development 1/1] COPY apps/web/ ./
+#24 DONE 0.0s
+
+#25 [web build 1/1] RUN npm run build
+#25 0.154 
+#25 0.154 > @mskill/web@0.1.0 build
+#25 0.154 > next build --webpack
+#25 0.154 
+#25 0.345 ▲ Next.js 16.4.0 (webpack)
+#25 0.365 ✓ Running next.config.ts took 19ms
+#25 0.370 
+#25 0.381   Creating an optimized production build ...
+#25 4.428 ✓ Compiled successfully in 3.1s
+#25 4.430   Running TypeScript ...
+#25 5.981   Finished TypeScript in 1551ms ...
+#25 5.982   Collecting page data using 9 workers ...
+#25 6.600   Generating static pages using 9 workers (0/7) ...
+#25 6.896   Generating static pages using 9 workers (1/7) 
+#25 6.896   Generating static pages using 9 workers (3/7) 
+#25 6.896   Generating static pages using 9 workers (5/7) 
+#25 6.896 ✓ Generating static pages using 9 workers (7/7) in 297ms
+#25 6.976   Finalizing page optimization ...
+#25 6.976   Collecting build traces ...
+#25 14.67 
+#25 14.67 Route (app)
+#25 14.67 ┌ ○ /
+#25 14.67 ├ ○ /_not-found
+#25 14.67 ├ ƒ /api/v1/[...path]
+#25 14.67 ├ ○ /explore
+#25 14.67 ├ ○ /lab/first-agent
+#25 14.67 ├ ○ /learn/agent-builder
+#25 14.67 └ ○ /radar
+#25 14.67 
+#25 14.67 
+#25 14.67 ○  (Static)   prerendered as static content
+#25 14.67 ƒ  (Dynamic)  server-rendered on demand
+#25 14.67 
+#25 DONE 14.8s
+
+#22 [web dependencies 2/4] WORKDIR /app
+#22 CACHED
+
+#26 [web production 3/4] COPY --from=build --chown=node:node /app/.next/standalone ./
+#26 DONE 0.2s
+
+#27 [web production 4/4] COPY --from=build --chown=node:node /app/.next/static ./.next/static
+#27 DONE 0.0s
+
+#28 [web] exporting to image
+#28 exporting layers
+#28 exporting layers 0.2s done
+#28 writing image sha256:9779a647bc24f071f08a31fdf45cfa711a1f5192960571a8b91f6c0169d04b7c done
+#28 naming to docker.io/library/mskill-beta-check-web
+#28 naming to docker.io/library/mskill-beta-check-web done
+#28 DONE 0.2s
+
+#29 [web] resolving provenance for metadata file
+#29 DONE 0.0s
+ mskill-beta-check-api  Built
+ mskill-beta-check-web  Built
+ Container mskill-beta-check-api-1  Recreate
+ Container mskill-beta-check-api-1  Recreated
+ Container mskill-beta-check-web-1  Recreate
+ Container mskill-beta-check-web-1  Recreated
+ Container mskill-beta-check-api-1  Starting
+ Container mskill-beta-check-api-1  Started
+ Container mskill-beta-check-api-1  Waiting
+ Container mskill-beta-check-api-1  Healthy
+ Container mskill-beta-check-web-1  Starting
+ Container mskill-beta-check-web-1  Started
+ Container mskill-beta-check-api-1  Waiting
+ Container mskill-beta-check-web-1  Waiting
+ Container mskill-beta-check-api-1  Healthy
+ Container mskill-beta-check-web-1  Healthy

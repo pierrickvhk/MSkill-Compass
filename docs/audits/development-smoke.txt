@@ -1,0 +1,6 @@
+PASS: health, graph, node, connections, stable ordering, 404s, homepage and Explorer over HTTP
+PASS: same-origin frontend gateway matches all three backend contracts
+PASS: frontend test fixture matches the real backend response
+PASS: learning path, graph references, gateway/fixture parity, unknown path and Learning Compass page
+PASS: mission API, graph/path references, gateway/fixture parity, 404 and Builder Lab page
+Smoke passed: Radar catalog, source/date/graph contracts, fixture parity, gateway and page.

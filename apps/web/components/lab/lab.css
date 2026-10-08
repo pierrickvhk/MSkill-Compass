@@ -1,0 +1,31 @@
+.lab-layout { display: grid; grid-template-columns: 230px minmax(0, 1fr) 265px; background: white; }
+.lab-setup { padding: 22px 30px; background: #f8faff; border-bottom: 1px solid var(--border); }
+.lab-setup p { font-size: 13px; margin-top: 10px; max-width: 90ch; }
+.build-mode { border: 0; margin: 0; padding: 0; display: flex; gap: 22px; flex-wrap: wrap; }
+.build-mode legend { font-size: 14px; font-weight: 600; margin-bottom: 8px; }
+.build-mode label { display: inline-flex; align-items: center; gap: 9px; min-height: 44px; font-size: 14px; }
+.lab-page input[type=radio], .lab-page input[type=checkbox] { accent-color: var(--action); width: 18px; height: 18px; flex: none; }
+.lab-page summary { cursor: pointer; padding: 12px 0; color: var(--action); font-weight: 600; font-size: 14px; }
+.lab-page details { margin-top: 12px; border-top: 1px solid var(--border); }
+.lab-page details h3 { font-size: 16px; margin: 14px 0 8px; }
+.lab-page details li { font-size: 14px; margin: 8px 0; max-width: 85ch; }
+.lab-page details a { text-decoration: underline; color: var(--action); }
+.lab-privacy { color: #76551d; }
+.lab-instructions { padding-left: 22px; }
+.lab-instructions li { margin-bottom: 14px; }
+.lab-phase label:not(.checkpoint-control) { display: block; font-weight: 600; font-size: 14px; margin: 14px 0 8px; }
+.lab-phase textarea, .lab-phase input[type=url], .lab-phase select { width: 100%; max-width: 100%; border: 1px solid #a8b8d4; border-radius: 4px; padding: 11px; background: white; color: var(--ink); font: inherit; font-size: 16px; line-height: 1.6; min-height: 44px; }
+.lab-phase textarea { resize: vertical; }
+.lab-phase small { color: var(--muted-text); font-size: 11px; }
+.phase-notes > p { font-size: 12px; color: var(--muted-text); margin-bottom: 10px; }
+.test-scenario { min-width: 0; padding: 18px; border: 1px solid var(--border); border-radius: 5px; margin: 20px 0; background: #f8faff; }
+.test-scenario legend { padding: 0 8px; font-size: 15px; font-weight: 600; }
+.test-scenario p + p { margin-top: 10px; }
+.checkpoint-control, .lab-phase .deliverable-checklist label { display: flex; gap: 12px; align-items: center; min-height: 44px; font-size: 14px; font-weight: 500; padding: 8px 0; margin: 0; }
+.checkpoint-control { margin-top: 12px; }
+.deliverable-checklist { margin: 12px 0 22px; }
+.lab-phase .field-error { color: #9b2238; font-size: 13px; }
+.lab-message { font-size: 13px; max-width: 900px; margin: 16px auto 0; color: var(--muted-text); }
+.markdown-preview textarea { font-family: ui-monospace, monospace; font-size: 12px; }
+@media (max-width: 1150px) { .lab-layout { grid-template-columns: 220px minmax(0, 1fr); } .lab-phases { grid-row: span 2; } }
+@media (max-width: 700px) { .lab-layout { display: block; } .lab-setup { padding: 18px; } .lab-page .test-scenario { padding: 14px; } .lab-page .step-actions .button { width: 100%; } }

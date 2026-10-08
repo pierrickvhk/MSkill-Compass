@@ -1,0 +1,226 @@
+{
+  "id": "agent-builder",
+  "title": "From Zero to Copilot Agent Builder",
+  "description": "A first independent MSkill learning journey, not an official Microsoft syllabus.",
+  "level": "explorer",
+  "source_status": "editorial-seed-review",
+  "stages": [
+    {
+      "id": "s1",
+      "title": "Understand AI basics",
+      "required": true,
+      "node_ids": [
+        "fundamentals-ai",
+        "generative-ai",
+        "prompts"
+      ],
+      "requires_stage_ids": [],
+      "exit_criteria": [
+        "Explain a basic generative AI use case and one limitation."
+      ],
+      "why": "Start with a vocabulary you can question, before choosing a tool.",
+      "objectives": [
+        "Distinguish a generative AI use case from an automated workflow.",
+        "Describe a prompt and a limitation you would check."
+      ],
+      "checkpoints": [
+        "Write a two-sentence explanation for a colleague. Add one example of an answer you would verify."
+      ],
+      "source_status": "seed-review",
+      "resources": [
+        {
+          "title": "Introduction to AI concepts",
+          "url": "https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/",
+          "publisher": "Microsoft",
+          "source_status": "verified",
+          "last_verified_at": "2026-10-08T17:34:41Z",
+          "note": "Start here. Microsoft describes machine-learning familiarity as helpful, not required."
+        },
+        {
+          "title": "Introduction to generative AI and agents",
+          "url": "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/",
+          "publisher": "Microsoft",
+          "source_status": "verified",
+          "last_verified_at": "2026-10-08T17:34:41Z",
+          "note": "Continue when comfortable with AI terminology. Microsoft lists basic AI and machine-learning familiarity as prerequisites."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Map the business problem",
+      "required": true,
+      "node_ids": [
+        "business-processes",
+        "agents"
+      ],
+      "requires_stage_ids": [
+        "s1"
+      ],
+      "exit_criteria": [
+        "Describe the user, question types and success criteria."
+      ],
+      "why": "A small, explicit problem gives your learning project a useful boundary.",
+      "objectives": [
+        "Name the intended user and the task they need help with.",
+        "Define an in-scope question, an out-of-scope question and a success criterion."
+      ],
+      "checkpoints": [
+        "Draft a fictional help-desk brief: audience, three questions, information allowed, and one measurable success criterion."
+      ],
+      "source_status": "seed-review",
+      "resources": [
+        {
+          "title": "Plan your Copilot Studio projects, an overview",
+          "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/plan-overview",
+          "publisher": "Microsoft",
+          "source_status": "verified",
+          "last_verified_at": "2026-10-08T17:34:41Z",
+          "note": "Read the planning overview and follow the objectives and success criteria guidance."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Discover Copilot Studio",
+      "required": true,
+      "node_ids": [
+        "copilot-studio",
+        "knowledge-sources"
+      ],
+      "requires_stage_ids": [
+        "s2"
+      ],
+      "exit_criteria": [
+        "Describe how the agent accesses curated knowledge."
+      ],
+      "why": "Explore the relationship between an agent and the information it is allowed to use.",
+      "objectives": [
+        "Locate the agent creation and testing steps in the official quickstart.",
+        "Explain which curated information your fictional agent may use."
+      ],
+      "checkpoints": [
+        "Follow the quickstart in an authorized practice environment with synthetic information. Record the intended knowledge source and an expected answer. Without access, make a clearly labelled design walkthrough."
+      ],
+      "source_status": "seed-review",
+      "resources": [
+        {
+          "title": "Quickstart: Create and deploy an agent with the standard harness",
+          "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-get-started",
+          "publisher": "Microsoft",
+          "source_status": "verified",
+          "last_verified_at": "2026-10-08T17:34:41Z",
+          "note": "Check current access and licensing requirements. A trial permits creation and testing but not publishing. Publishing is not required for this MSkill checkpoint."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Connect a safe workflow",
+      "required": true,
+      "node_ids": [
+        "connectors",
+        "power-automate",
+        "cloud-flows",
+        "actions-tools"
+      ],
+      "requires_stage_ids": [
+        "s3"
+      ],
+      "exit_criteria": [
+        "Explain which actions require human review and why."
+      ],
+      "why": "Separating a proposed action from permission to perform it makes a workflow easier to review.",
+      "objectives": [
+        "Sketch a trigger, an action and the connection each needs.",
+        "Identify where a person should review a consequential action in your example."
+      ],
+      "checkpoints": [
+        "Draw a fictional request-to-reminder flow. Mark its input, connections, expected output and a human review point. Use demo accounts only if trying the official exercise."
+      ],
+      "source_status": "seed-review",
+      "resources": [
+        {
+          "title": "Get started with Power Automate",
+          "url": "https://learn.microsoft.com/en-us/training/modules/get-started-flows/",
+          "publisher": "Microsoft",
+          "source_status": "verified",
+          "last_verified_at": "2026-10-08T17:34:41Z",
+          "note": "The module lists Power Automate sign-up and OneDrive for work or school as prerequisites. Read or sketch first if you do not have an authorized practice environment."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Understand permissions and governance",
+      "required": true,
+      "node_ids": [
+        "entra-id",
+        "access-control",
+        "governance"
+      ],
+      "requires_stage_ids": [
+        "s3"
+      ],
+      "exit_criteria": [
+        "List data access and sharing checks."
+      ],
+      "why": "Decide who should see information before sharing an agent or a workflow.",
+      "objectives": [
+        "List the data and identities involved in your example.",
+        "Find the official governance guidance relevant to access and sharing."
+      ],
+      "checkpoints": [
+        "Write a short access review for your fictional project: intended users, permitted data, owner, sharing boundary and an unresolved question for an administrator."
+      ],
+      "source_status": "seed-review",
+      "resources": [
+        {
+          "title": "Key concepts - Copilot Studio security and governance",
+          "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/security-and-governance",
+          "publisher": "Microsoft",
+          "source_status": "verified",
+          "last_verified_at": "2026-10-08T17:34:41Z",
+          "note": "Read the overview and consult the linked controls relevant to your environment. This checkpoint is not a security certification."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Ship the first mission",
+      "required": true,
+      "node_ids": [
+        "monitoring-evals",
+        "alm"
+      ],
+      "requires_stage_ids": [
+        "s4",
+        "s5"
+      ],
+      "exit_criteria": [
+        "Run three test scenarios and document results."
+      ],
+      "mission_id": "first-agent",
+      "why": "A small set of recorded examples makes limitations visible and gives you a starting point for improvement.",
+      "objectives": [
+        "Compare expected and observed behavior across three scenarios.",
+        "Record one limitation and one improvement for a later version."
+      ],
+      "checkpoints": [
+        "Run a normal question, an out-of-scope request and a missing-information case against your practice agent. Record expected and actual results. If using a design walkthrough, label these as simulated rather than executed."
+      ],
+      "source_status": "seed-review",
+      "resources": [
+        {
+          "title": "Test your agent",
+          "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-test-bot",
+          "publisher": "Microsoft",
+          "source_status": "verified",
+          "last_verified_at": "2026-10-08T17:34:41Z",
+          "note": "Use the official test-panel guidance with synthetic data. Keep your observations locally; MSkill does not collect or assess them."
+        }
+      ]
+    }
+  ],
+  "version": "v1"
+}
