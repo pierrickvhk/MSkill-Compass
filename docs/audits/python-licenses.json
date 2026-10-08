@@ -1,0 +1,184 @@
+[
+  {
+    "name": "Pygments",
+    "version": "2.21.0",
+    "license": "BSD-2-Clause",
+    "license_classifiers": []
+  },
+  {
+    "name": "annotated-doc",
+    "version": "0.0.5",
+    "license": "MIT",
+    "license_classifiers": []
+  },
+  {
+    "name": "annotated-types",
+    "version": "0.8.0",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ]
+  },
+  {
+    "name": "anyio",
+    "version": "4.15.1",
+    "license": "MIT",
+    "license_classifiers": []
+  },
+  {
+    "name": "ast_serialize",
+    "version": "0.12.1",
+    "license": "MIT",
+    "license_classifiers": []
+  },
+  {
+    "name": "certifi",
+    "version": "2026.7.22",
+    "license": "MPL-2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)"
+    ]
+  },
+  {
+    "name": "click",
+    "version": "8.5.0",
+    "license": "BSD-3-Clause",
+    "license_classifiers": []
+  },
+  {
+    "name": "fastapi",
+    "version": "0.143.0",
+    "license": "MIT",
+    "license_classifiers": []
+  },
+  {
+    "name": "h11",
+    "version": "0.16.0",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ]
+  },
+  {
+    "name": "httpcore",
+    "version": "1.0.9",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ]
+  },
+  {
+    "name": "httpx",
+    "version": "0.28.1",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ]
+  },
+  {
+    "name": "idna",
+    "version": "3.20",
+    "license": "BSD-3-Clause",
+    "license_classifiers": []
+  },
+  {
+    "name": "iniconfig",
+    "version": "2.3.1",
+    "license": "MIT",
+    "license_classifiers": []
+  },
+  {
+    "name": "librt",
+    "version": "0.16.0",
+    "license": "MIT",
+    "license_classifiers": []
+  },
+  {
+    "name": "mypy",
+    "version": "2.4.0",
+    "license": "MIT",
+    "license_classifiers": []
+  },
+  {
+    "name": "mypy_extensions",
+    "version": "1.1.0",
+    "license": "MIT",
+    "license_classifiers": []
+  },
+  {
+    "name": "opentelemetry-api",
+    "version": "1.45.1",
+    "license": "Apache-2.0",
+    "license_classifiers": []
+  },
+  {
+    "name": "packaging",
+    "version": "26.3",
+    "license": "Apache-2.0 OR BSD-2-Clause",
+    "license_classifiers": []
+  },
+  {
+    "name": "pathspec",
+    "version": "1.1.1",
+    "license": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)"
+    ]
+  },
+  {
+    "name": "pluggy",
+    "version": "1.6.0",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ]
+  },
+  {
+    "name": "pydantic",
+    "version": "2.14.0",
+    "license": "MIT",
+    "license_classifiers": []
+  },
+  {
+    "name": "pydantic_core",
+    "version": "2.50.0",
+    "license": "MIT",
+    "license_classifiers": []
+  },
+  {
+    "name": "pytest",
+    "version": "9.1.1",
+    "license": "MIT",
+    "license_classifiers": []
+  },
+  {
+    "name": "ruff",
+    "version": "0.16.10",
+    "license": "MIT",
+    "license_classifiers": []
+  },
+  {
+    "name": "starlette",
+    "version": "1.7.0",
+    "license": "BSD-3-Clause",
+    "license_classifiers": []
+  },
+  {
+    "name": "typing-inspection",
+    "version": "0.4.4",
+    "license": "MIT",
+    "license_classifiers": []
+  },
+  {
+    "name": "typing_extensions",
+    "version": "4.16.0",
+    "license": "PSF-2.0",
+    "license_classifiers": []
+  },
+  {
+    "name": "uvicorn",
+    "version": "0.54.0",
+    "license": "BSD-3-Clause",
+    "license_classifiers": []
+  }
+]

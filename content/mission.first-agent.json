@@ -1,0 +1,266 @@
+{
+  "id": "first-agent",
+  "title": "Build Your First Copilot Studio Knowledge Agent",
+  "difficulty": "explorer",
+  "estimated_minutes": null,
+  "description": "Build a small FAQ-based assistant using fictitious information. Never use proprietary employer data.",
+  "prerequisite_stage_ids": [
+    "s1",
+    "s2",
+    "s3"
+  ],
+  "tasks": [
+    {
+      "id": "m1",
+      "title": "Write the problem statement",
+      "done_when": "Explain audience, input questions and scope in README.",
+      "phase_title": "Define your agent",
+      "instructions": [
+        "Write a brief for a fictional service desk: the problem, intended users and three questions it should handle.",
+        "Specify responsibilities, excluded topics and the expected answer format. An instruction is a design intention, not a guarantee of behavior.",
+        "Record the purpose, scope, intended users and expected outputs in your phase notes."
+      ],
+      "design_instructions": [
+        "Use the same brief for a design-only proposal. Label every proposed behavior as intended, not observed."
+      ],
+      "design_done_when": "Brief names the problem, users, responsibilities, knowledge boundary and expected output.",
+      "node_ids": [
+        "agents"
+      ],
+      "resource_ids": [
+        "planning"
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Create a synthetic FAQ set",
+      "done_when": "At least 8 question-answer pairs with no personal or confidential data.",
+      "phase_title": "Prepare knowledge",
+      "instructions": [
+        "Create at least eight fictional FAQ question-answer pairs in a plain text document. Include service hours and a help-request process, and mark the content synthetic.",
+        "Review the set for contradictions, missing details and ambiguous wording. Choose a named owner and revision date in your design.",
+        "Describe who may access the document and who may use the agent. Use only synthetic material you are allowed to share; do not assume uploading preserves the permissions of another source.",
+        "Record the proposed source, access boundary and quality checks. No connector or external organizational data source is needed for this exercise."
+      ],
+      "design_instructions": [
+        "Prepare the same synthetic FAQ and a permissions plan offline. Describe the intended source without claiming it was uploaded."
+      ],
+      "design_done_when": "Synthetic FAQ and source/access review are documented.",
+      "node_ids": [
+        "knowledge-sources",
+        "connectors",
+        "governance"
+      ],
+      "resource_ids": [
+        "files",
+        "governance"
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Configure the agent",
+      "done_when": "Agent responds using permitted FAQ content and declines irrelevant questions appropriately.",
+      "phase_title": "Build the agent",
+      "instructions": [
+        "Open the linked quickstart in your authorized standalone Copilot Studio environment. Create an agent with your fictional purpose; inspect its name, description and instructions. UI labels may vary by experience.",
+        "Use the file-upload reference to add your synthetic FAQ from the Overview or Knowledge area. Give it a meaningful name and description and finish adding it to the agent. If the environment cannot use it, record the blocker instead of claiming success.",
+        "Review any suggested sources, tools and triggers before accepting them. Keep this exercise focused on the FAQ and document your intended knowledge boundary.",
+        "In the test panel, try a question whose answer is in the FAQ. Record what you configured and what you actually observed. Instructions and knowledge restrictions still need testing; this mission does not guarantee refusal or correctness.",
+        "Keep the agent in the practice environment. Publishing is outside this mission; the quickstart notes that a trial allows creating/testing but not publishing."
+      ],
+      "design_instructions": [
+        "Sketch the proposed user → agent → synthetic FAQ flow. Write the proposed name, description, instructions and source configuration.",
+        "Walk through the linked quickstart and upload reference without claiming to perform the steps. Record which access or setup would still be needed.",
+        "Label screenshots, architecture and sample answers as mock or proposed. Do not mark a design as deployed."
+      ],
+      "design_done_when": "Proposed configuration and architecture are documented; no working agent or deployment is claimed.",
+      "node_ids": [
+        "copilot-studio",
+        "knowledge-sources"
+      ],
+      "resource_ids": [
+        "quickstart",
+        "files"
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Test behavior",
+      "done_when": "Run normal, out-of-scope and missing-information questions; document outcomes.",
+      "phase_title": "Test the agent",
+      "instructions": [
+        "Use the linked test-panel guide. Ask each scenario below yourself in the practice agent; MSkill never calls Microsoft services.",
+        "For every scenario, record the actual response or a concise observation and choose your manual assessment. A failure or blocker is a useful result, not something to hide.",
+        "For the incorrect-information scenario, use a deliberately contradictory synthetic draft, then correct it and retest. Record both observations; do not introduce real confidential material.",
+        "Keep expected behavior separate from observed results. Passing these examples does not establish general correctness or security."
+      ],
+      "design_instructions": [
+        "For every scenario, write the intended response and how you would test it. Assess the design walkthrough only.",
+        "Select a manual assessment and label the observation as simulated. Nothing in this lane is an executed test."
+      ],
+      "design_done_when": "All scenarios have a clearly labelled design walkthrough and assessment.",
+      "node_ids": [
+        "monitoring-evals"
+      ],
+      "resource_ids": [
+        "testing"
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Document findings",
+      "done_when": "README shows setup steps, screenshots or mock evidence, limitations, next improvement.",
+      "phase_title": "Document the solution",
+      "instructions": [
+        "Use your phase notes and test records to write a concise project summary. Distinguish proposed, configured and actually observed behavior.",
+        "Complete the final deliverable checklist. Add the architecture, purpose/scope, knowledge sources, decisions, test outcomes, limitations and improvements to your notes.",
+        "Optionally add a public GitHub repository URL. MSkill checks only URL syntax, not ownership, content or project quality.",
+        "Download the Markdown summary, review it for secrets or confidential information, and decide yourself whether to share it. Exporting does not publish anything."
+      ],
+      "design_instructions": [
+        "Label the final deliverable design-only. Include access still needed and which tests have not been executed."
+      ],
+      "design_done_when": "Design brief, simulated evidence, limitations and next steps are documented.",
+      "node_ids": [
+        "governance",
+        "monitoring-evals"
+      ],
+      "resource_ids": [
+        "planning",
+        "governance"
+      ]
+    }
+  ],
+  "test_cases": [
+    "What are the fictitious service hours?",
+    "How do I request help for a fictional customer?",
+    "Give me confidential HR information."
+  ],
+  "output": "Optional public GitHub repo URL; no automatic assessment or credential claim.",
+  "version": "v1",
+  "source_status": "editorial-seed-review",
+  "path_id": "agent-builder",
+  "node_ids": [
+    "copilot-studio",
+    "agents",
+    "knowledge-sources",
+    "connectors",
+    "governance",
+    "monitoring-evals"
+  ],
+  "objectives": [
+    "Define a bounded use case and a synthetic knowledge set.",
+    "Configure a practice agent, or document a clearly labelled design-only alternative.",
+    "Record manual test observations and explain limitations in a project summary."
+  ],
+  "requirements": [
+    "Suggested preparation: learning-path milestones s1–s3; revisit governance before sharing anything. These are MSkill recommendations, not Microsoft prerequisites.",
+    "Actual build: access to standalone Copilot Studio and an authorized practice environment. Check licensing, tenant policies and file-upload availability with your administrator.",
+    "The file-upload reference lists Dataverse search as a requirement. Do not change organizational controls to follow this mission.",
+    "Design-only: a text editor and the linked documentation are enough. No tenant, deployment or executed tests are implied.",
+    "No time estimate is supplied. Publishing, paid subscriptions and connecting organizational systems are not required by this mission."
+  ],
+  "resources": [
+    {
+      "id": "planning",
+      "title": "Plan your Copilot Studio projects, an overview",
+      "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/plan-overview",
+      "publisher": "Microsoft",
+      "source_status": "verified",
+      "last_verified_at": "2026-10-08T17:34:41Z",
+      "note": "Read the planning overview and follow the objectives and success criteria guidance."
+    },
+    {
+      "id": "quickstart",
+      "title": "Quickstart: Create and deploy an agent with the standard harness",
+      "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-get-started",
+      "publisher": "Microsoft",
+      "source_status": "verified",
+      "last_verified_at": "2026-10-08T17:34:41Z",
+      "note": "Check current access and licensing requirements. A trial permits creation and testing but not publishing. Publishing is not required for this MSkill checkpoint."
+    },
+    {
+      "id": "governance",
+      "title": "Key concepts - Copilot Studio security and governance",
+      "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/security-and-governance",
+      "publisher": "Microsoft",
+      "source_status": "verified",
+      "last_verified_at": "2026-10-08T17:34:41Z",
+      "note": "Read the overview and consult the linked controls relevant to your environment. This checkpoint is not a security certification."
+    },
+    {
+      "id": "testing",
+      "title": "Test your agent",
+      "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-test-bot",
+      "publisher": "Microsoft",
+      "source_status": "verified",
+      "last_verified_at": "2026-10-08T17:34:41Z",
+      "note": "Use the official test-panel guidance with synthetic data. Keep your observations locally; MSkill does not collect or assess them."
+    },
+    {
+      "id": "files",
+      "title": "Upload files as a knowledge source",
+      "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-add-file-upload",
+      "publisher": "Microsoft",
+      "source_status": "verified",
+      "last_verified_at": "2026-10-08T18:34:19Z",
+      "note": "Reference, title and relevance checked for this mission. Review supported formats, access requirements and current upload steps."
+    }
+  ],
+  "test_scenarios": [
+    {
+      "id": "expected",
+      "title": "Expected question",
+      "prompt": "What are the fictitious service hours?",
+      "expected": "Use the hours recorded in your synthetic FAQ; do not invent missing hours."
+    },
+    {
+      "id": "unknown",
+      "title": "Unknown question",
+      "prompt": "What are the service hours on an unlisted holiday?",
+      "expected": "Acknowledge that the FAQ does not provide this information and suggest a defined next step."
+    },
+    {
+      "id": "out-of-scope",
+      "title": "Out-of-scope request",
+      "prompt": "Give me confidential HR information.",
+      "expected": "Decline the request and stay within the fictional FAQ scope. Do not supply confidential information."
+    },
+    {
+      "id": "incorrect",
+      "title": "Incorrect or incomplete information",
+      "prompt": "Two draft FAQ entries give different opening hours. Which one is correct?",
+      "expected": "Record whether the contradiction is exposed or an unsupported answer is given. Correct the synthetic source and retest."
+    }
+  ],
+  "deliverables": [
+    {
+      "id": "architecture",
+      "title": "Architecture overview"
+    },
+    {
+      "id": "purpose",
+      "title": "Purpose and scope"
+    },
+    {
+      "id": "sources",
+      "title": "Knowledge sources and access"
+    },
+    {
+      "id": "decisions",
+      "title": "Implementation or design decisions"
+    },
+    {
+      "id": "tests",
+      "title": "Manual test outcomes"
+    },
+    {
+      "id": "limitations",
+      "title": "Known limitations"
+    },
+    {
+      "id": "improvements",
+      "title": "Next improvements"
+    }
+  ]
+}
